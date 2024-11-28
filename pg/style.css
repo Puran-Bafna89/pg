@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 15px auto;
+    /* align-items: center; */
+}
+
+.container table{
+    border-collapse: collapse;
+    /* width: 100%; */
+    font-family: arial, sans-serif;
+    table-layout: auto;
+    margin: auto;
+}
+
+.container table th{
+    text-align: left;
+}
+
+.container table, th, td{
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+/* .container table i.fa-solid, */
+.container table i.fa-circle-check{
+    color: green;
+}
+.container table i.fa-circle-xmark{
+    color: red;
+}
